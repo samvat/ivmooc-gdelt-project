@@ -1,24 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://d3js.org/topojson.v1.min.js"></script>
-    <script src="https://d3js.org/queue.v1.min.js"></script>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>Samvat Rastogi - IV MOOC GDELT Project Spring 2017</title>
-</head>
-<body>
-<div class="container-fluid map-container">
-    <div class="row">
-        <div class="col-md-12" id="globeParent">
-           <div style="display:none;">
-                 <img id="plane" src="plane-2_03-black.png">
-            </div>
+    <script src="http://mbostock.github.com/d3/d3.js"></script>
+    <script src="http://mbostock.github.com/d3/d3.geo.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://mbostock.github.com/d3/talk/20111018/style.css"/>
+    <link type="text/css" rel="stylesheet" href="http://mbostock.github.com/d3/talk/20111018/colorbrewer/colorbrewer.css"/>
+    <style type="text/css">
+
+svg {
+  width:  800px;
+  height: 800px;
+  pointer-events: all;
+}
+
+circle {
+  fill: #dbe4f0;
+}
+
+path {
+  fill: #aaa;
+  stroke: #fff;
+}
+
+#header {
+  top: 7px;
+  left: 685px;
+  text-align: right;
+  width: auto;
+}
+
+#header div {
+  font-size: 12px;
+}
+
+.tip { color: #999; }
+    </style>
+  </head>
+  <body>
+    <div id="body">
+      <div id="header">
+        d3.geo.azimuthal
+        <div><label for="proj">Projection: </label><select id="proj">
+          <option value="equalarea">equalarea</option>
+          <option value="equidistant">equidistant</option>
+          <option value="gnomonic">gnomonic</option>
+          <option value="orthographic" selected>orthographic</option>
+          <option value="stereographic">stereographic</option>
+        </select></div>
+        <div class="tip">drag to rotate the origin</div>
+        <div><label for="animate">animate:</label>
+          <input id="animate" type="checkbox" checked>
         </div>
+      </div>
     </div>
-</div>
-<script src="globe.js"></script>
-</body>
+    <script src="globe.js"></script>
+  </body>
 </html>
