@@ -1,5 +1,5 @@
-var width = 400,
-    height = 400;
+var width = 800,
+    height = 800;
 
 //the scale corrsponds to the radius more or less so 1/2 width
 var projection = d3.geo.orthographic()
