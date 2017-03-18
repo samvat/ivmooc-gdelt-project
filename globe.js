@@ -29,9 +29,7 @@ var svg = d3.select("#body").append("svg:svg")
 
 if (frameElement) frameElement.style.height = '800px';
 
-
-// d3.json("world-countries.json", function(collection) {
-d3.json("https://bl.ocks.org/mbostock/raw/4090846/world-50m.json", function(collection) {
+d3.json("world-110m.json", function(collection) {
   feature = svg.selectAll("path")
       .data(collection.features)
     .enter().append("svg:path")
