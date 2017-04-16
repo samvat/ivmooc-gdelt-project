@@ -7,97 +7,38 @@
       {"name": "person", "size": 2227},
       {"name": "people", "size": 2181},
       {"name": "protest", "size": 606},
-      {"name": "crowd", "size": 567}
+      {"name": "crowd", "size": 567},
+	  {"name": "profession", "size": 451)
      ]
   },
   {
    "name": "Anger",
    "children": [
-    {
-     "name": "cluster",
-     "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "CommunityStructure", "size": 3812},
-      {"name": "HierarchicalCluster", "size": 6714},
-      {"name": "MergeEdge", "size": 743}
-     ]
-    },
-    {
-     "name": "graph",
-     "children": [
-      {"name": "BetweennessCentrality", "size": 3534},
-      {"name": "LinkDistance", "size": 5731},
-      {"name": "MaxFlowMinCut", "size": 7840},
-      {"name": "ShortestPaths", "size": 5914},
-      {"name": "SpanningTree", "size": 3416}
-     ]
-    },
-    {
-     "name": "optimization",
-     "children": [
-      {"name": "AspectRatioBanker", "size": 7074}
-     ]
-    }
+	  {"name": "person", "size": 24},
+      {"name": "people", "size": 20},
+      {"name": "protest", "size": 13},
+      {"name": "marriage", "size": 7},
+	  {"name": "marching", "size": 7}
    ]
   },
   {
    "name": "Sorrow",
    "children": [
-    {
-     "name": "cluster",
-     "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "CommunityStructure", "size": 3812},
-      {"name": "HierarchicalCluster", "size": 6714},
-      {"name": "MergeEdge", "size": 743}
-     ]
-    },
-    {
-     "name": "graph",
-     "children": [
-      {"name": "BetweennessCentrality", "size": 3534},
-      {"name": "LinkDistance", "size": 5731},
-      {"name": "MaxFlowMinCut", "size": 7840},
-      {"name": "ShortestPaths", "size": 5914},
-      {"name": "SpanningTree", "size": 3416}
-     ]
-    },
-    {
-     "name": "optimization",
-     "children": [
-      {"name": "AspectRatioBanker", "size": 7074}
-     ]
-    }
+   	  {"name": "person", "size": 14},
+      {"name": "people", "size": 7},
+      {"name": "business", "size": 5},
+      {"name": "human body", "size": 5},
+	  {"name": "marching", "size": 4}
    ]
   }, 
   {
    "name": "Surprise",
    "children": [
-    {
-     "name": "cluster",
-     "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "CommunityStructure", "size": 3812},
-      {"name": "HierarchicalCluster", "size": 6714},
-      {"name": "MergeEdge", "size": 743}
-     ]
-    },
-    {
-     "name": "graph",
-     "children": [
-      {"name": "BetweennessCentrality", "size": 3534},
-      {"name": "LinkDistance", "size": 5731},
-      {"name": "MaxFlowMinCut", "size": 7840},
-      {"name": "ShortestPaths", "size": 5914},
-      {"name": "SpanningTree", "size": 3416}
-     ]
-    },
-    {
-     "name": "optimization",
-     "children": [
-      {"name": "AspectRatioBanker", "size": 7074}
-     ]
-    }
+   	  {"name": "person", "size": 2},
+      {"name": "profession", "size": 2},
+      {"name": "religion", "size": 2},
+      {"name": "woman", "size": 2},
+	  {"name": "musician", "size": 2}
    ]
   }
  ]
