@@ -1,16 +1,45 @@
 {
- "name": "Emotions",
+ "name": "Emotions", 
  "children": [
-  {
-   "name": "Joy",
+	{
+	"name": "Joy",
+	"children": [
+		{"name": "person", "size": 2227},
+		{"name": "people", "size": 2181},
+		{"name": "protest", "size": 606},
+		{"name": "crowd", "size": 567},
+		{"name": "profession", "size": 451}
+	]
+	},
+	{
+   "name": "Anger",
    "children": [
-      {"name": "person", "size": 2227},
-      {"name": "people", "size": 2181},
-      {"name": "protest", "size": 606},
-      {"name": "crowd", "size": 567},
-	  {"name": "profession", "size": 451)
-	 ]
-	}
-	}
+	  {"name": "person", "size": 24},
+      {"name": "people", "size": 20},
+      {"name": "protest", "size": 13},
+      {"name": "marriage", "size": 7},
+	  {"name": "marching", "size": 7}
+   ]
+  },
+  {
+   "name": "Sorrow",
+   "children": [
+   	  {"name": "person", "size": 14},
+      {"name": "people", "size": 7},
+      {"name": "business", "size": 5},
+      {"name": "human body", "size": 5},
+	  {"name": "marching", "size": 4}
+   ]
+  }, 
+  {
+   "name": "Surprise",
+   "children": [
+   	  {"name": "person", "size": 2},
+      {"name": "profession", "size": 2},
+      {"name": "religion", "size": 2},
+      {"name": "woman", "size": 2},
+	  {"name": "musician", "size": 2}
+   ]
+  }
 	]
 }		  
